@@ -1,0 +1,132 @@
+body{
+    background-color:white;
+    font-family: "Roboto", sans-serif;
+}
+
+a{
+    color:#00bdd6;
+}
+
+footer{
+    padding-left: 15px;
+}
+
+.weather-app{
+    max-width:600px;
+    margin: 45px auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow:  0px 17px 35px #171a1f, 0px 0px 2px #171a1f;
+    padding: 30px;
+}
+
+header{
+    border-bottom: 1px solid #f9f7fe;
+    padding: 0 0 10px 0;
+    font-family: "Roboto", sans-serif;
+    display:flex;
+}
+
+.title{
+    font-size: 20px; 
+    line-height: 30px; 
+    font-weight: 700; 
+    color: #171A1FFF;
+    padding-left: 10px;
+}
+.search-form-input{
+    width: 300px;
+    height: 70px;
+    padding-left: 15px;
+    padding-right: 12px;
+    background-color:  #f9f7fe;
+    border-radius: 8px;
+    border-width: 3px;
+    border-color: #4069E5FF;
+    border-style: solid;
+    outline: none;
+    font-size: 16px;
+    padding: 15px 20px;
+}
+
+.search-form-button{
+    background: #4069E5FF;
+    width: 114px;
+    height:70px;
+    border-radius: 8px;
+    border:none;
+    color: white;
+    padding: 0 12px;
+}
+
+.day{
+    padding-left: 15px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #1638A0FF; 
+}
+
+
+
+.city{
+    padding-left:15px;
+    font-size: 40px;
+    line-height: 56px;
+    color: #4069E5EB; 
+}
+
+.country{
+    padding-left:15px;
+    font-size: 24px; 
+    line-height: 36px; 
+    font-weight: 700; 
+    color: #4069E5EB;
+}
+
+.visual{
+    display:flex;
+    justify-content: center;
+}
+.oval {
+  width: 237px; 
+  height: 232px;
+  background: #F2C263FF;
+  border-radius: 50%; 
+}
+
+.line{
+    width: 297px; 
+    height: 0px; 
+    border-width: 3px; 
+    border-color: #323842FF; /* neutral-700 */
+    border-style: solid; 
+    transform: rotate(0deg); 
+}
+
+.description{
+    font-size: 48px; 
+    line-height: 68px; 
+    font-weight: 700; 
+    color: #171A1FFF; /* neutral-900 */
+}
+
+.details{
+    padding-left: 15px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    color:  #00BDD6FF;
+    padding-top: 50px;
+}
+
+.temperature-container{
+    display: flex;
+    padding-left: 15px;
+}
+.temperature, .temperature-unit{
+    font-size: 80px; 
+    line-height: 104px; 
+    font-weight: 700; 
+    color: #00BDD6FF;
+}

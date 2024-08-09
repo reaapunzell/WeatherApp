@@ -4,13 +4,53 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link re="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" />
   <title>SheCodes</title>
 </head>
 <body>
-    <h1>Rea's Weather App</h1>
-  
-</body>
+    <div class="weather-app">
+    <header>
+        <form class="search-form">
+            <input type="search" placeholder="Enter a city..." required class="search-form-input" />
+            <input type="submit" value="Search" class="search-form-button"/>
+        </form>
+        <h1 class="title">Rea's Weather App</h1>
+    </header>
+    <main>
+        <div class="data">
+        <div>
+            <p class="day">
+                Sunday 14:00
+            </p>
+            <h1 class="city">Johannesburg</h1>
+            <h2 class="country">South Africa</h2>
+        </div>
+
+        <div class="visual">
+            <img src="src\images\Sunny.png" alt="Yellow Circle with text saying Sunny">
+        </div>
+
+        <div class="details">
+            Humidity: <strong>66%</strong>, Wind: <strong>3.13km/h</strong>
+        </div>
+        <div class="temperature-container">
+            <div class="temperature">21</div>
+             <div class="temperature-unit">°C</div>
+        </div>
+    </div>
+    </main>
+    
+
+
 <footer>
     Coded by <a href="https://github.com/reaapunzell" target="_blank">Reatlilwe Maroga</a> Code hosted on <a href="https://github.com/reaapunzell/WeatherApp" target="_blank">Github</a> and website hosted on <a href="https://rea-weatherapp.netlify.app/" target="_blank">Netlify</a>
 </footer>
+</div>
+</body>
 </html>
