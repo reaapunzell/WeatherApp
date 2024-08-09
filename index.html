@@ -11,13 +11,14 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
   <title>SheCodes</title>
 </head>
 <body>
     <div class="weather-app">
     <header>
-        <form class="search-form">
-            <input type="search" placeholder="Enter a city..." required class="search-form-input" />
+        <form class="search-form" id="search-form">
+            <input type="search" placeholder="Enter a city..." required id="search-form-input" class="search-form-input" />
             <input type="submit" value="Search" class="search-form-button"/>
         </form>
         <h1 class="title">Rea's Weather App</h1>
@@ -28,8 +29,8 @@
             <p class="day">
                 Sunday 14:00
             </p>
-            <h1 class="city">Johannesburg</h1>
-            <h2 class="country">South Africa</h2>
+            <h1 class="city" id="city"></h1>
+            <h2 class="country" id="country"></h2>
         </div>
 
         <div class="visual">
@@ -40,7 +41,7 @@
             Humidity: <strong>66%</strong>, Wind: <strong>3.13km/h</strong>
         </div>
         <div class="temperature-container">
-            <div class="temperature">21</div>
+            <div class="temperature" id="temperature">21</div>
              <div class="temperature-unit">°C</div>
         </div>
     </div>
@@ -52,5 +53,6 @@
     Coded by <a href="https://github.com/reaapunzell" target="_blank">Reatlilwe Maroga</a> Code hosted on <a href="https://github.com/reaapunzell/WeatherApp" target="_blank">Github</a> and website hosted on <a href="https://rea-weatherapp.netlify.app/" target="_blank">Netlify</a>
 </footer>
 </div>
+<script src="src\index.js"></script>
 </body>
 </html>
