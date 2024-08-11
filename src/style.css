@@ -140,3 +140,34 @@ header{
     font-weight: 700; 
     color: #00BDD6FF;
 }
+
+.forecast{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.forecast-date{
+    text-align: center;
+    font-size: 24px; 
+    line-height: 36px; 
+    font-weight: 700; 
+    color: #4069E5FF;
+}
+
+.forecast-icon{
+    text-align:center;
+    font-size: 38px;
+}
+
+.forecast-temperatures{
+    text-align:center;
+    color: #B2F6FFFF;
+    font-size: 20px;
+    display:flex;
+    justify-content: center;
+}
+
+.forecast-temperature{
+    color: #00A7BDFF;
+    padding: 0 10px;
+}
