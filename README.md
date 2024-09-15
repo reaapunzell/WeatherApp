@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a weather application created during the SheCodes workshop. It allows users to search for real-time weather information for any city around the world. The app displays the current weather conditions, including temperature, humidity, wind speed, and a short description of the weather.
+This project is a weather application created during the SheCodes workshop. It allows users to search for real-time weather information for any city around the world. The app displays the current weather conditions, including temperature, humidity, wind speed, and a short description of the weather. View Projec [here](https://rea-weatherapp.netlify.app/)
 
 ## Features
 
